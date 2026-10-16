@@ -1,0 +1,21 @@
+# Зависимости
+node_modules/
+
+# Сборка
+dist/
+.vite/
+
+# Переменные окружения с секретами
+.env
+.env.local
+.env.*.local
+
+# Логи и системный мусор
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.idea/
+*.swp
